@@ -1,0 +1,31 @@
+version: "3"
+services:
+  foxtail:
+    container_name: foxtail_api
+    image: foxtailapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9000:9000
+    environment:
+      AWS_SECRET_NAME: "foxtail/prod/apikeys"
+      AWS_ACCESS_KEY: AKIA3365QXPAO4QLPQMB
+      AWS_SECRET_KEY: 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
+      AWS_PROFILE_IMAGE_BUCKET: prod-ft-imgs
+      AWS_S3_REGION: us-east-1
+      BASE_URI: https://api.foxtailapp.com
+      JWT_SECRET: dkjndo34n93fn934nfo3rfdmoi3
+      MONGOHOST: mongodb://ftmongo:GlM8MMPTdlumARMK@cluster0-shard-00-00-83o5t.mongodb.net:27017,cluster0-shard-00-01-83o5t.mongodb.net:27017,cluster0-shard-00-02-83o5t.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority
+      NODE_ENV: production
+      PORT: 9000
+      REDISHOST: foxtail-redis
+      REDISPORT: 6379
+      SENTRY_DSN: https://e0b7bf75c93a460ba2bbb317344aa045@sentry.io/1399876
+
+  redis:
+    image: redis:alpine
+    container_name: foxtail-redis
+    restart: always
+    ports:
+      - 6379:6379

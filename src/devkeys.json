@@ -1,0 +1,23 @@
+{
+  "ADMIN_JWT_SECRET2": "ekjwnd34cfuirh43huicnfelsfejrgnejrfkjef",
+  "ADMIN_JWT_SECRET": "dfjngfdnviernfamowjeofmicr439fuiern",
+  "AUTH_TOKEN_EXPIRATION": "1h",
+  "AWS_PROFILE_IMAGE_BUCKET": "ft-dev-imgs-bucket",
+  "AWS_PROFILE_IMAGE_BUCKET_URL": "https://ft-dev-imgs-bucket.s3.amazonaws.com/",
+  "EMAIL_SECRET": "asdf1093KMnzxcvnkljvasdu09123nlasdasdf",
+  "PASS_SECRET": "wuierf3487t873ghgi3g8frh2f8y3g48yfhi48",
+  "RESET_SECRET_EXPIRATION": "1h",
+  "GOOGLE_RECAPTCHA_SECRET_KEY": "6LdvxqYUAAAAAEMJhr4kRkAV2SmhelQRiKK0opgi",
+  "JWT_SECRET2": "oqwijeowierpoqwoidsondjsnf",
+  "JWT_SECRET": "kdjfnvjkveojoi934inreojnerj",
+  "MONGOHOST": "mongodb+srv://ft-test-user:ajGUz048AASJXFVx@cluster0.3ufsi.mongodb.net/test?retryWrites=true&w=majority",
+  "NODE_ENV": "staging",
+  "PORT": "4444",
+  "REDISHOST": "redis-15887.c12.us-east-1-4.ec2.cloud.redislabs.com",
+  "REDISPORT": "15887",
+  "REDISPASS": "M0p1hU32ki9JdBcvf5tX4n8wVi31dkUT",
+  "REFRESH_TOKEN_EXPIRATION": "7d",
+  "SENTRY_DSN": "https://6949c8b54141425daa0b58eefd21c236@sentry.io/1837050",
+  "CSRF": "889jhbjhnjk062e4rrt7y8798908b4e821",
+  "TOKEN_EXCHANGE_URL": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=AIzaSyB8nDonER1nB1l1m3ri_WQYFdNGATBoKdU"
+}
